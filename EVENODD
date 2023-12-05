@@ -1,0 +1,21 @@
+//PROGRAM TO CHECK WHETHER A GIVEN NUMBER IS AN ODD NUMBER
+import java.util.Scanner;
+public class EvenOdd
+{
+    public static void main(String args[])
+    { 
+        System.out.print("Even a number:");
+        Scanner reader = new Scanner(System.in); //object creation
+        int num= reader.nextInt(); //reading the integer number
+        reader.close();
+        if (num% 2==0)
+        {
+            System.out.print("\n Entered number "+ num +"is an even number,");
+        }
+        else
+        {
+            System.out.print("\n Entered number "+ num +"is an odd number.");
+        }
+        
+    }
+}
